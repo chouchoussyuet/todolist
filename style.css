@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'headline';
+    src: url(Pacifico-Regular.ttf);
+  }
+
+  body {
+    background-image: url("back3.png");
+    background-size: cover;
+  }
+  
+
+  #headline {
+    font-size : 70px;
+    font-weight : 500;
+    font-family : 'headline', sans-serif;
+    color : rgb(53, 51, 51);
+    text-align : center;
+    padding-top : 30px;
+    padding-bottom : 70px;
+  }
+
+  /*#input{
+    background-color : rgba(197, 194, 194, 0.712);
+    padding: 3px 3px 3px 3px;
+    border: none;
+    outline :none;
+    border-radius: 12px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    width: 255px; 
+    height: 35px;
+    margin-bottom : 20px;
+  }*/
+  
+  #addButton {
+    background-color : rgba(254, 253, 255, 0.514);
+    color : rgb(105, 86, 86);
+    padding : 5px 10px;
+    cursor : pointer;
+    border-radius: 50px;
+    border: 1px solid grey;
+    height : 40px;
+  }
+
+  #clearAll {
+    border : none;
+    background-color : rgba(237, 234, 239, 0.536);
+    color : rgb(105, 86, 86);
+    font-family : 'headline';
+    margin-top : 20px;
+    width : 90px;
+    font-size : 15px;
+    border-radius : 30%;
+    cursor : pointer;
+  }
+  
+  #countTask {
+    cursor : pointer;
+    border : none;
+    background-color : rgba(237, 234, 239, 0.536);
+    color : rgb(105, 86, 86);
+    font-family : 'headline';
+    margin-top : 20px;
+    width : 90px;
+    font-size : 15px;
+    border-radius : 30%;
+  }
+  
+  #completedCount {
+    cursor : pointer;
+    border : none;
+    background-color : rgba(237, 234, 239, 0.536);
+    color : rgb(105, 86, 86);
+    font-family : 'headline';
+    margin-top : 20px;
+    width : 90px;
+    font-size : 15px;
+    border-radius : 30%;
+  }
+
+  
+#clearAll:hover, #countTask:hover, #addButton:hover, #completedCount:hover {
+    background-color: #a19ea1;
+  }
+  
+  
+  #taskList {
+    box-sizing :border-box;
+    border : none;
+  }
+  
+  .list{
+    display : flex;
+    background-color : rgba(228, 229, 235, 0.464);
+    margin : 3px 0 3px auto;
+    padding : auto;
+    border-radius : 20px;
+    position : relative;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  
+  .list:hover{
+    background-color: rgba(254, 254, 255, 0.653);
+    cursor : pointer;
+    position : relative;
+  }
+  
+  .list::-webkit-scrollbar {
+    height : 8px;
+    background-color:rgba(228, 229, 235, 0); /* Màu nền của thanh kéo */
+  }
+
+  /* trong thanh kéo */
+  .list::-webkit-scrollbar-thumb {
+    background-color: rgba(138, 136, 136, 0.712); /* Màu sắc của thanh kéo */
+    border-radius: 5px;
+  }
+
+  .deleteButton {
+    cursor: pointer;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: rgb(49, 44, 44);
+    background-color : rgba(162, 165, 196, 0.4); 
+  }
+  
+  
+  .deleteButton:hover{
+    background-color: rgba(209, 209, 255, 0.94);
+  }
+  
+  .media {
+    padding-top : 130px;
+  }
+
+  
